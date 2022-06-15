@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url(./Fontes/Pacifico-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 1100px;
+    background-image: url(/Fotos/enfemragem.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Pacifico', sans-serif;
+}
+header h1{
+    margin: auto;
+    background: linear-gradient(to bottom, rgb(240, 11, 125), rgba(55, 55, 250, 0.007));
+    padding: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+header > nav{
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    min-width: 100px;
+    max-width: 550px;
+    background-color: beige;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px 10px 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+main{
+    padding: 20px;
+    height: 800px;
+}
+#Botoes{
+    border-radius: 20px 0px 20px 0px;
+    max-width: 550px;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    max-width: 70%;
+    height: 60px;
+    font-family: 'Pacifico';
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    
+}
+li{
+    list-style: none;
+}
